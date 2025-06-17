@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Store - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    .navbar {
+      background-color: #4CAF50 !important;
+    }
+    .navbar-brand {
+      font-weight: 600;
+    }
+    .navbar .nav-link {
+      color: white !important;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      background: url('images/hero-bg.jpg') no-repeat center center/cover;
+      color: rgb(0, 0, 0);
+      padding: 60px;
+      text-align: center;
+      border-bottom: 5px solid #4CAF50; /* Border added here */
+    }
+    .hero h2 {
+      font-size: xx-large;
+      font-weight: bold;
+    }
+    .hero p {
+      font-size: 1.5;
+      margin-top: 20px;
+    }
+
+    .section-padding {
+      padding: 60px 20px;
+      border-bottom: 5px solid #4CAF50; /* Border added here for all sections */
+    }
+
+    /* Importance of Plants Section */
+    .importance p {
+      font-size: 1.2;
+      line-height: 1.6;
+      color: #555;
+      
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .importance{
+      background-color: #d0eaec;
+      text-align: center;
+
+    }
+    
+
+    /* Impact Section */
+    .impact {
+      background-color: #eaf1f1;
+      text-align: center;
+      border-bottom: 5px solid #4CAF50; /* Border added here */
+    }
+    .impact p {
+      font-size: 1.2;
+      color: #555;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+
+    /* Footer */
+    footer {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .btn-green {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn-green:hover {
+      background-color: #45a049;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+      .hero p {
+        font-size: 1.2rem;
+      }
+      h2 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">E-Store</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="purchase.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="Abt.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="Login Page.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <h2>Welcome to E-Store</h2>
+    <p>Your go-to place for affordable, eco-friendly plants that help the environment.</p>
+  </div>
+
+  <div class="importance section-padding">
+    <h3>Why Plants Matter</h3>
+    <p>Plants are essential for life on Earth. They improve air quality, provide food, and help combat climate change. Having plants in your home or garden can also boost your mood and well-being. Plants offer countless benefits, and having them around can make your life more sustainable and healthier.
+    At E-Store, we offer a variety of eco-friendly plants at reasonable prices. By buying plants from us, you're helping nature and supporting a greener future for all.</p>
+  </div>
+
+  <div class="impact section-padding">
+    <h3>The Impact of Eco-Friendly Practices</h3>
+    <p>By choosing plants and sustainable products, you contribute to reducing carbon footprints, conserving water, and promoting biodiversity. Every small action counts in the bigger effort to protect our planet.
+    We are committed to offering products that not only benefit your home but also our environment. Your purchase is part of a larger movement toward a healthier, greener world.</p>
+  </div>
+
+  <div class="products section-padding text-center">
+    <h3>Our Plants Collection</h3>
+    <div style="max-width: 800px; margin: 0 auto;">
+        <p>Bring nature into your home with our carefully selected plants. Whether you need air-purifying greens, vibrant flowering plants, or easy-to-maintain options, we have something for everyone.
+        
+        All our plants are grown with care and suited for different environments. From fragrant flowers like Jasmine and Rose to decorative plants like Tulip and Sunflower, we offer a collection that enhances both beauty and well-being.
+        
+        We also provide eco-friendly gardening essentials, ensuring you have everything you need to nurture your plants with ease.</p>
+    </div>
+    <br>
+    <a href="products.html" class="btn-green">Explore Our Plants</a>
+</div>
+
+
+
+
+  <footer>
+    <p>&copy; 2025 E-Store. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
